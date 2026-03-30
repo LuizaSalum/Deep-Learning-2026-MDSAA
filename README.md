@@ -20,16 +20,16 @@ Next, activate the environment based on your operating system:
 
 * **Windows:**
   ```bash
-  .venv\Scripts\activate
+  .\.venv\Scripts\activate
   ```
 * **macOS / Linux:**
   ```bash
-  source .venv/bin/activate
+  source .\.venv\Scripts\activate
   ```
 
 ### 3. Install Dependencies
 
-Once the environment is activated (you should see `(.venv)` in your terminal prompt), install the required deep learning packages (TensorFlow, Keras, etc.):
+Once the environment is activated, install the required deep learning packages (TensorFlow, Keras, etc.):
 
 ```bash
 uv pip install -r requirements.txt
