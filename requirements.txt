@@ -1,6 +1,8 @@
-tensorflow
-keras
-keras-cv
+tensorflow==2.10.0
+keras==2.10.0
+tensorflow-addons==0.18.0
+keras-cv==0.4.1
+numpy==1.26.4
 torch
 torchvision
 transformers
@@ -8,5 +10,4 @@ albumentations
 scikit-learn
 matplotlib
 seaborn
-numpy
 tqdm

@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-This project uses [`uv`](https://github.com/astral-sh/uv) for Python environment management. The project is configured to automatically use Python 3.12.11 via the `.python-version` file.
+This project uses [`uv`](https://github.com/astral-sh/uv) for Python environment management. The project is configured to automatically use Python 3.10 via the `.python-version` file.
 
 ### 1. Create the Environment
 
@@ -33,4 +33,10 @@ Once the environment is activated, install the required deep learning packages (
 
 ```bash
 uv pip install -r requirements.txt
+```
+
+If your project is in an OneDrive folder, use:
+
+```bash
+uv pip install -r requirements.txt --link-mode=copy
 ```
