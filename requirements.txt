@@ -1,8 +1,12 @@
 tensorflow
 keras
-matplotlib
-numpy
-scikit-learn
+keras-cv
+torch
+torchvision
+transformers
 albumentations
+scikit-learn
+matplotlib
 seaborn
-pathlib
+numpy
+tqdm
