@@ -3,3 +3,6 @@ keras
 matplotlib
 numpy
 scikit-learn
+albumentations
+seaborn
+pathlib
