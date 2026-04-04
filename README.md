@@ -1,0 +1,42 @@
+# Deep-Learning-2026-MDSAA
+
+## Getting Started
+
+This project uses [`uv`](https://github.com/astral-sh/uv) for Python environment management. The project is configured to automatically use Python 3.10 via the `.python-version` file.
+
+### 1. Create the Environment
+
+> **Note:** If you already see a `.venv` folder in your project directory, do not run `uv venv`. Skip directly to the activation step.
+
+First, navigate to the project folder and create the virtual environment. `uv` will automatically detect the required Python version and download it if necessary:
+
+```bash
+uv venv
+```
+
+### 2. Activate the Environment
+
+Next, activate the environment based on your operating system:
+
+* **Windows:**
+  ```bash
+  .\.venv\Scripts\activate
+  ```
+* **macOS / Linux:**
+  ```bash
+  source .\.venv\Scripts\activate
+  ```
+
+### 3. Install Dependencies
+
+Once the environment is activated, install the required deep learning packages (TensorFlow, Keras, etc.):
+
+```bash
+uv pip install -r requirements.txt
+```
+
+If your project is in an OneDrive folder, use:
+
+```bash
+uv pip install -r requirements.txt --link-mode=copy
+```
