@@ -67,11 +67,13 @@ The development lifecycle was structured into the following sequential phases:
 
 **Improved Model:** Design and training of the custom CNN without data augmentation as we realised there was no overfitting.
 
+**Third Model:** Implementation of a third version of the CNN with some data augmentation.
+
 ### 3. Transfer Learning Approaches
 
-**Xception:** Adaptation and fine-tuning of the Xception model for the specific artwork classification task.
-
 **EfficientNetV2S:** Adaptation and fine-tuning of the EfficientNetV2S architecture.
+
+**Xception:** Adaptation and fine-tuning of the Xception model for the specific artwork classification task.
 
 ### 4. State-of-the-Art Feature Extraction
 
