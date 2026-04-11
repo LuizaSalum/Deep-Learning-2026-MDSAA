@@ -1,3 +1,4 @@
 # Normaliza todos os ficheiros de texto para LF no repositório
 # mas faz checkout com o formato nativo do SO do utilizador
 * text=auto
+Checkpoints/** filter=lfs diff=lfs merge=lfs -text
