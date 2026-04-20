@@ -2,4 +2,7 @@ Model,Test accuracy,Test macro-F1,Top-3 accuracy,Best val loss,Best val acc
 EfficientNetV2S,0.8457,0.8374,0.9441,1.1220,0.8439
 Xception,0.7700,0.7554,0.9085,1.3206,0.7731
 MyCNN,0.4896,0.4549,0.7532,2.0595,0.4588
-DINOv2,0.8111,0.8014,0.9214,1.3866,0.7982
+DINOv2_base_frozen,0.8111,0.8014,0.9214,1.3866,0.7982
+DINOv2_large_frozen,0.8244,0.8094,0.9362,1.2852,0.8213
+DINOv2_base_finetuned,0.8541,0.8418,0.9372,1.1765,0.8479
+MyCNN_distilled,0.6874,0.6535,0.8531,1.1634,0.6963
